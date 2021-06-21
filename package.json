@@ -1,0 +1,11 @@
+{
+  "name": "NLWTogether-Node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leonardolsousa/NLWTogether-Node.git",
+  "author": "Leonardo Sousa <leonardolsousa5@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
