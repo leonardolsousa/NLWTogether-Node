@@ -15,7 +15,7 @@ export function ensureAuthenticated(request: Request, response: Response, next: 
         return response.status(401).end();
     }
 
-    const [, token] = authToken.split("") //a , dentro do array ignora o primeiro response
+    const [, token] = authToken.split(" ") //a , dentro do array ignora o primeiro response
 
     try {
         // Validar se token é válido
